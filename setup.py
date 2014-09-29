@@ -8,7 +8,7 @@ setup(name='sqlcmd',
       long_description=open("README.md").read() + "\n"
       + open("AUTHORS.md").read() + "\n" + open("CHANGES.md").read(),
       url='https://github.com/ccpgames/sqlcmd',
-      py_modules=['pushover'],
+      py_modules=['sqlcmd'],
       entry_points={"console_scripts": ["sqlcmd = sqlcmd:main"]},
       install_requires=['python-tds>=1.7.2'],
       license='GNU GPLv3'
