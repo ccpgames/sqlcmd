@@ -6,12 +6,8 @@ Pure Python alternative to SQLCMD.EXE using Pytds.
 Installation
 ------------
 
-You can install sqlcmd from GitHub_:
+You can install sqlcmd from [GitHub](https://github.com/ccpgames/sqlcmd):
 
-.. code-block:: bash
-
-    git clone https://github.com/ccpgames/sqlcmd.git
-    cd sqlcmd
-    pip install .
-
-.. _GitHub: https://github.com/ccpgames/sqlcmd
+```
+    pip install git+https://github.com/ccpgames/sqlcmd
+```
